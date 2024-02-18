@@ -4,4 +4,6 @@
 
 "!https://api.codeclimate.com/v1/badges/10fa716df805d77eda82/maintainability!":https://codeclimate.com/github/IvanUrich/fullstack-javascript-project-44/maintainability
 
-тут должна быть ссылка на https://asciinema.org/
+тут должна быть ссылка на https://asciinema.org/ Step-5
+
+тут еще запись Step-6
