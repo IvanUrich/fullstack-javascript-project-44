@@ -15,3 +15,11 @@ export const checkingTheAnswer = (answer, examination) => { // Проверка 
     }
     
 };
+
+export const gcd = (a, b) => { // Наибольший Общий Делитель  [ Greatest Common Divisor ]
+    let i = a;
+      while (a % i !== 0 || b % i !== 0) {
+      i = i - 1;
+      }
+      return i;
+};

@@ -4,7 +4,7 @@ import { questionAnswer, checkingTheAnswer } from '../../src/index.js';  // Им
 import { whatIsYourName } from '../../src/cli.js';
 
 const name = whatIsYourName();
-console.log('What is the result of the expression?'); // Правила игры [  ]
+console.log('What is the result of the expression?'); // Правила игры [ Rules of the game ]
 const operator = ['+', '-', '*'];
 
 for (let i = 0; i < 3; i++) { // Цикл на три вопроса  [ A series of three questions ]
