@@ -12,11 +12,11 @@ for (let i = 0; i < 3; i++) { // Цикл на три вопроса  [ A series
     let numberSecond = Math.floor(Math.random() * 100); // Случайное число от 1 до 100 [ Random number from 1 to 100 ]
 
     const answer = Number(questionAnswer(`${numberFirst} ${numberSecond}`)); // Задаваемый вопрос + ответ [ Asked question + answer ]
-    const examination = gcd(numberFirst, numberSecond); // Проверочный ответ [ Test answer ]
+    const examination = gcd(numberFirst, numberSecond); // Проверочный ответ НОД [ Test answer GCD ]
 
     if (checkingTheAnswer(answer, examination) === false) { // Проверка на провал и победу [ Check for failure and victory ]
         console.log(`'${answer}' is wrong answer ;(. Correct answer was '${examination}'.`)
-        console.log(`Let's try again, ${name}'`);
+        console.log(`Let's try again, ${name}`);
         break;
     } else if (i === 2) {
         console.log(`Congratulations, ${name}`);
