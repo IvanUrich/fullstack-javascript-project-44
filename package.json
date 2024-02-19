@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
+    "brain-prime": "bin/games/brain-prime.js",
     "brain-progression": "bin/games/brain-progression.js",
     "brain-gcd": "bin/games/brain-gcd.js",
     "brain-games": "bin/brain-games.js",

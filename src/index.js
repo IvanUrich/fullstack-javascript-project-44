@@ -41,3 +41,12 @@ export const getArrQuestion = (arr, index) => { // Переделка прогр
     const question = arrNew.join(' '); // Разделитель [ Delimiter ]
     return question;
 };
+
+export const getYesOrNot = (number) => { // Ответ на "Просто ли число?" [ The answer to "Is it just a number?" ]
+    for (let i = 2; i < number; i++) {
+        if (number % i === 0) {
+            return 'yes';
+        }
+    }
+    return 'no';
+};
