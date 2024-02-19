@@ -34,6 +34,6 @@ let number = 0;
                 i = 5;
         }
         if (i !== 5 && i === 3) { // Проверка на провал [ Check for failure ]
-            console.log(`Congratulations, ${name}`);
+            console.log(`Congratulations, ${name}!`);
         }
     }

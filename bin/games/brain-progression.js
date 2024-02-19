@@ -25,7 +25,7 @@ for (let i = 0; i < 3; i++) { // Цикл на три вопроса  [ A series
         console.log(`Let's try again, ${name}`);
         break;
     } else if (i === 2) {
-        console.log(`Congratulations, ${name}`);
+        console.log(`Congratulations, ${name}!`);
     }
 
 }
