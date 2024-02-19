@@ -17,7 +17,7 @@ let number = 0;
                 if (number % 2 === 0) {
                     console.log('Correct!');
                 } else {
-                    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}`);
+                    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`);
                     i = 5;
                 }
                 break;
@@ -25,12 +25,12 @@ let number = 0;
                 if (number % 2 !== 0) {
                     console.log('Correct!');
                 } else {
-                    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}`);
+                    console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`);
                     i = 5;
                 }
                 break;
             default:
-                console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}`);
+                console.log(`'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, ${name}!`);
                 i = 5;
         }
         if (i !== 5 && i === 3) { // Проверка на провал [ Check for failure ]

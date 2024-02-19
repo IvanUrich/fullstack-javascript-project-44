@@ -18,7 +18,7 @@ for (let i = 0; i < 3; i++) { // Цикл на три вопроса  [ A series
     
     if (checkingTheAnswer(answer, examination) === false) { // Проверка на провал и победу [ Check for failure and victory ]
         console.log(`'${answer}' is wrong answer ;(. Correct answer was '${examination}'.`)
-        console.log(`Let's try again, ${name}`);
+        console.log(`Let's try again, ${name}!`);
         break;
     } else if (i === 2) {
         console.log(`Congratulations, ${name}!`);
