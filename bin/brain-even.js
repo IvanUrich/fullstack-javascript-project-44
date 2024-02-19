@@ -1,4 +1,4 @@
-#!/usr/bin/games/env node
+#!/usr/bin/env node
 
 import { questionAnswer } from '../src/index.js';  // Импорт [ Import ]
 import { whatIsYourName } from '../src/cli.js'; 
