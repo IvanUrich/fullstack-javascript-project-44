@@ -1,7 +1,7 @@
 #!/usr/bin/games/env node
 
-import { questionAnswer } from '../../src/index.js';  // Импорт [ Import ]
-import { whatIsYourName } from '../../src/cli.js'; 
+import { questionAnswer } from '../src/index.js';  // Импорт [ Import ]
+import { whatIsYourName } from '../src/cli.js'; 
 
 const name = whatIsYourName(); // Получение имени
 console.log('Answer "yes" if the number is even, otherwise answer "no".'); // Правила игры [ Rules of the game ]
