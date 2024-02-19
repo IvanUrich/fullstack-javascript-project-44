@@ -8,7 +8,7 @@ import { questionAnswer,
          getArrQuestion } from '../src/index.js'; // Импорт [ Import ]
 import { whatIsYourName } from '../src/cli.js';
 
-const name = whatIsYourName();
+const name = whatIsYourName(); // Getting a name
 console.log('What number is missing in the progression?'); // Правила игры [ Rules of the game ]
 
 for (let i = 0; i < 3; i += 1) { // Цикл на три вопроса  [ A series of three questions ]

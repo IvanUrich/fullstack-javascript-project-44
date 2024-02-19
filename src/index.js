@@ -1,10 +1,10 @@
 /* eslint-disable no-param-reassign */
 
-import readlineSync from 'readline-sync'; // Импорт [ Import ]
+import readlineSync from 'readline-sync'; // Import
 
-export const questionAnswer = (number) => { // Вопрос ответ [ Question answer ]
+export const questionAnswer = (number) => { // Question answer
   console.log(`Question: ${number}`);
-  const answer = readlineSync.question('Your answer: '); // Запрос ответа [ Request a response ]
+  const answer = readlineSync.question('Your answer: '); // Request a response
   return answer;
 };
 
@@ -16,7 +16,7 @@ export const checkingTheAnswer = (answer, examination) => { // Checking the answ
   return false;
 };
 
-export const gcd = (a, b) => { // Наибольший Общий Делитель  [ Greatest Common Divisor ]
+export const gcd = (a, b) => { // Greatest Common Divisor
   let i = a;
   while (a % i !== 0 || b % i !== 0) {
     i -= 1;
@@ -35,11 +35,11 @@ export const getArifmeticalProgression = (number, step) => { // Creating an Arit
 
 export const getArrQuestion = (arr, index) => { // Reworking the progression for the question
   const arrNew = [];
-  for (let i = 0; i < arr.length; i += 1) { // Новый массив - копия [ new array - copy ]
+  for (let i = 0; i < arr.length; i += 1) { // new array - copy
     arrNew[i] = arr[i];
   }
-  arrNew[index] = '..'; // Скрытие искомого числа [ Hiding the searched number ]
-  const question = arrNew.join(' '); // Разделитель [ Delimiter ]
+  arrNew[index] = '..'; // Hiding the searched number
+  const question = arrNew.join(' '); // Delimiter
   return question;
 };
 

@@ -4,12 +4,12 @@
 
 "!https://api.codeclimate.com/v1/badges/10fa716df805d77eda82/maintainability!":https://codeclimate.com/github/IvanUrich/fullstack-javascript-project-44/maintainability
 
-тут должна быть ссылка на https://asciinema.org/ Step-5
+Game: "Parity Check" - brain-even.js - https://drive.google.com/file/d/13W7kW33ckx9gSJbqHQFRkzo9cN8S5yN_/view?usp=sharing
 
-тут еще запись Step-6
+Game: "Calculator" - brain-calc.js - https://drive.google.com/file/d/1QbIHAugUMmTU2mVddKmET7C7IsxhizL7/view?usp=sharing
 
-тут еще запись Step-7
+Game: "GCD" - brain-gcd.js - https://drive.google.com/file/d/1-F5ei5vXBqzZHjkTnOtSXYZrCEWnInxr/view?usp=sharing
 
-тут еще запись Step-8
+Game: "Arithmetic progression" - brain-progression.js - https://drive.google.com/file/d/1xKRW12lMJYArLeNmpfk43vyTbDonMxVc/view?usp=sharing
 
-тут еще запись Step-9
+Game: "Is the number prime?" - brain-prime.js - https://drive.google.com/file/d/1MnCBch1xrgtNm7jDkj7GZloUwu7I4fRM/view?usp=sharing
