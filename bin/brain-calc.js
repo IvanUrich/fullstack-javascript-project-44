@@ -8,9 +8,7 @@ const name = whatIsYourName();
 console.log('What is the result of the expression?'); // Правила игры [ Rules of the game ]
 const operator = ['+', '-', '*'];
 
-// Цикл на три вопроса  [ A series of three questions ]
-
-for (let i = 0; i < 3; i += 1) {
+for (let i = 0; i < 3; i += 1) { // Цикл на три вопроса  [ A series of three questions ]
   const numberFirst = Math.floor(Math.random() * 100); // Random number from 1 to 100
   const numberSecond = Math.floor(Math.random() * 100); // Random number from 1 to 100
   const indexOperand = Math.abs(Math.floor((Math.random() * 10) / 3 - 1)); // Operator index

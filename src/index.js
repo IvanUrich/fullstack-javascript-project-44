@@ -1,52 +1,53 @@
-import readlineSync from "readline-sync"; // Импорт [ Import ]
+/* eslint-disable no-param-reassign */
+
+import readlineSync from 'readline-sync'; // Импорт [ Import ]
 
 export const questionAnswer = (number) => { // Вопрос ответ [ Question answer ]
-    console.log(`Question: ${number}`); 
-    const answer = readlineSync.question('Your answer: '); // Запрос ответа [ Request a response ]
-    return answer;
+  console.log(`Question: ${number}`);
+  const answer = readlineSync.question('Your answer: '); // Запрос ответа [ Request a response ]
+  return answer;
 };
 
-export const checkingTheAnswer = (answer, examination) => { // Проверка ответа [ Checking the answer ]
-    if (answer === examination) {
-        console.log('Correct!');
-        return true;
-    } else {
-        return false;
-    }
+export const checkingTheAnswer = (answer, examination) => { // Checking the answer
+  if (answer === examination) {
+    console.log('Correct!');
+    return true;
+  }
+  return false;
 };
 
 export const gcd = (a, b) => { // Наибольший Общий Делитель  [ Greatest Common Divisor ]
-    let i = a;
-      while (a % i !== 0 || b % i !== 0) {
-      i = i - 1;
-      }
-      return i;
+  let i = a;
+  while (a % i !== 0 || b % i !== 0) {
+    i -= 1;
+  }
+  return i;
 };
 
-export const getArifmeticalProgression = (number, step) => { // Создание арифметической прогрессии [ Creating an Arithmetic Progression ]
-    const arr = [number];
-    for (let i = 1; i < 10; i++) {
-        arr[i] = number + step;
-        number += step;
-    }
-    return arr;
+export const getArifmeticalProgression = (number, step) => { // Creating an Arithmetic Progression
+  const arr = [number];
+  for (let i = 1; i < 10; i += 1) {
+    arr[i] = number + step;
+    number += step;
+  }
+  return arr;
 };
 
-export const getArrQuestion = (arr, index) => { // Переделка прогрессии для вопроса [ Reworking the progression for the question ]
-    const arrNew = [];
-    for (let i = 0; i < arr.length; i++) { // Новый массив - копия [ new array - copy ]
-    arrNew[i] = arr[i];    
-    }
-    arrNew[index] = ".."; // Скрытие искомого числа [ Hiding the searched number ]
-    const question = arrNew.join(' '); // Разделитель [ Delimiter ]
-    return question;
+export const getArrQuestion = (arr, index) => { // Reworking the progression for the question
+  const arrNew = [];
+  for (let i = 0; i < arr.length; i += 1) { // Новый массив - копия [ new array - copy ]
+    arrNew[i] = arr[i];
+  }
+  arrNew[index] = '..'; // Скрытие искомого числа [ Hiding the searched number ]
+  const question = arrNew.join(' '); // Разделитель [ Delimiter ]
+  return question;
 };
 
-export const getYesOrNot = (number) => { // Ответ на "Просто ли число?" [ The answer to "Is it just a number?" ]
-    for (let i = 2; i < number; i++) {
-        if (number % i === 0) {
-            return 'no';
-        }
+export const getYesOrNot = (number) => { // The answer to "Is it just a number?"
+  for (let i = 2; i < number; i += 1) {
+    if (number % i === 0) {
+      return 'no';
     }
-    return 'yes';
+  }
+  return 'yes';
 };
