@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { questionAnswer, checkingTheAnswer } from '../../src/index.js';  // Импорт [ Import ]
-import { whatIsYourName } from '../../src/cli.js';
+import { questionAnswer, checkingTheAnswer } from '../src/index.js';  // Импорт [ Import ]
+import { whatIsYourName } from '../src/cli.js';
 
 const name = whatIsYourName();
 console.log('What is the result of the expression?'); // Правила игры [ Rules of the game ]

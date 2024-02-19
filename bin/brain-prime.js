@@ -1,7 +1,7 @@
 #!/usr/bin/games/env node
 
-import { questionAnswer, checkingTheAnswer, getYesOrNot } from '../../src/index.js';  // Импорт [ Import ]
-import { whatIsYourName } from '../../src/cli.js';
+import { questionAnswer, checkingTheAnswer, getYesOrNot } from '../src/index.js';  // Импорт [ Import ]
+import { whatIsYourName } from '../src/cli.js';
 
 const name = whatIsYourName();
 console.log('Answer "yes" if given number is prime. Otherwise answer "no".'); // Правила игры [ Rules of the game ]

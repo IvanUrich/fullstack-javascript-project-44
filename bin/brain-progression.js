@@ -3,8 +3,8 @@
 import { questionAnswer, 
          checkingTheAnswer, 
          getArifmeticalProgression,
-         getArrQuestion } from '../../src/index.js';  // Импорт [ Import ]
-import { whatIsYourName } from '../../src/cli.js';
+         getArrQuestion } from '../src/index.js';  // Импорт [ Import ]
+import { whatIsYourName } from '../src/cli.js';
 
 const name = whatIsYourName();
 console.log('What number is missing in the progression?'); // Правила игры [ Rules of the game ]

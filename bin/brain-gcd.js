@@ -1,7 +1,7 @@
 #!/usr/bin/games/env node
 
-import { questionAnswer, checkingTheAnswer, gcd } from '../../src/index.js';  // Импорт [ Import ]
-import { whatIsYourName } from '../../src/cli.js';
+import { questionAnswer, checkingTheAnswer, gcd } from '../src/index.js';  // Импорт [ Import ]
+import { whatIsYourName } from '../src/cli.js';
 
 const name = whatIsYourName();
 console.log('Find the greatest common divisor of given numbers.'); // Правила игры [ Rules of the game ]
